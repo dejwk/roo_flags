@@ -4,9 +4,7 @@ cc_library(
     visibility = ["//visibility:public"],
     srcs = glob(
         [
-            "src/**/*.cc",
             "src/**/*.h",
-            "src/**/*.c",
         ],
         exclude = ["test/**"],
     ),
