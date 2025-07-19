@@ -7,8 +7,8 @@
   void ROO_FLAGS_##name##_set(const type& val); \
   void ROO_FLAGS_##name##_set(type&& val);      \
   }                                             \
-  using internal::ROO_FLAGS_##name##_get;       \
-  using internal::ROO_FLAGS_##name##_set;
+  using ::internal::ROO_FLAGS_##name##_get;     \
+  using ::internal::ROO_FLAGS_##name##_set;
 
 #define ROO_FLAG(type, name, value)                               \
   namespace internal {                                            \
@@ -30,8 +30,8 @@
   };                                                              \
   char FLAGS_no##name;                                            \
   }                                                               \
-  using internal::ROO_FLAGS_##name##_get;                         \
-  using internal::ROO_FLAGS_##name##_set;
+  using ::internal::ROO_FLAGS_##name##_get;                       \
+  using ::internal::ROO_FLAGS_##name##_set;
 
 #define GET_ROO_FLAG(name) ROO_FLAGS_##name##_get()
 #define SET_ROO_FLAG(name, val) ROO_FLAGS_##name##_set(val)
