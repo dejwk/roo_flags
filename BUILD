@@ -10,3 +10,12 @@ cc_library(
     ),
     includes = [ "src" ]
 )
+
+cc_test(
+    name = "roo_flags_test",
+    srcs = ["test/roo_flags_test.cpp"],
+    deps = [
+        ":roo_flags",
+        "@googletest//:gtest_main",
+    ],
+)
