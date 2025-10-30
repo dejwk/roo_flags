@@ -2,7 +2,8 @@
     "name": "roo_flags",
     "description": "Minimalistic library for run-time configuration flags.",
     "keywords": [
-        "flags", "configuration"
+        "flags",
+        "configuration"
     ],
     "authors": [
         {
@@ -15,7 +16,7 @@
         "type": "git",
         "url": "https://github.com/dejwk/roo_flags"
     },
-    "version": "1.1.0",
+    "version": "1.1.1",
     "homepage": "https://github.com/dejwk/roo_flags",
     "frameworks": [
         "Arduino"
