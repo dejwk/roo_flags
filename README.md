@@ -1,1 +1,1 @@
-This library provides some minimalistic support for configuration options that need to be changeable at run time (i.e., when macros don't cut it). Useful in libraries.
+This library provides some minimalistic support for configuration options that need to be changeable at run time (i.e., when macros don't cut it). Useful in libraries. Tested on ESP32 (Arduino and esp-idf) and RP2040 Pico. Should work with most other microcontrollers.
