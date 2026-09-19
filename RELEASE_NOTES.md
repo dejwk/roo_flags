@@ -1,3 +1,12 @@
+# roo_flags 1.2.5
+
+## Changed
+
+- Updated Bazel dependencies: `rules_cc` to 0.2.25 and GoogleTest to 1.18.0.bcr.1.
+- Added consolidated release-notes history.
+
+---
+
 # [roo_flags 1.2.4](https://github.com/dejwk/roo_flags/releases/tag/1.2.4)
 
 Published 2026-08-21.
