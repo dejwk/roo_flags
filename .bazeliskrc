@@ -1,1 +1,2 @@
-BAZELISK_WRAPPER_DIRECTORY=.roo_testing/bin
+# Match the host profile used by roo_flags CI.
+BAZELISK_SKIP_WRAPPER=true
