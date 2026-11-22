@@ -1,7 +1,8 @@
 # roo_flags 1.2.6
 
-- Updated the GitHub Actions workflow for host tests from `roo_testing` 2.0.0 to 2.5.0.
-- Added a Bazelisk wrapper, an all-profiles test script, and local Bazel test configurations for ESP32, ESP32-C3, ESP32-S3, and RP2040.
+- Updated the GitHub Actions host-test workflow from `roo_testing` 2.0.0 to 2.6.0.
+- Enabled the Bazelisk wrapper and added a script and configuration files for nine local Bazel test profiles covering ESP32, ESP32-C3, ESP32-S3, and RP2040.
+- Adopted the shared roo formatting configuration and contributor guidelines.
 
 ---
 
